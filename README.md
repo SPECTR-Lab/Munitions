@@ -37,5 +37,8 @@ to execute the script.
  * Torque can be added by modifying the iftout flag in the torq_calc call.
  * The history of the field values at the probes located at points defined in ext_cyl.his is calculated by call to hpts in userchk. These values are appended to ext_cyl.his file.
 
-
+## 3D CASE:
+genmap -> threeD.rea
+makenek ext_cyl(.rea)
+nekbmpi threeD (#)
 
